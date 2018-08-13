@@ -1,0 +1,9 @@
+
+.bookDetails{
+    display :flex;
+    flex-direction: column;
+    width: 30%;
+    height: 30%;
+    margin:1%;
+    background-color: yellow;
+}
