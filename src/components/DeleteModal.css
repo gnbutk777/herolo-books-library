@@ -1,0 +1,30 @@
+
+.deleteBookModalContainer{
+    display: flex;
+    height: 10%;
+    width: 35%;
+    flex-direction: column;
+    background-color: #FFF;
+}
+
+.deleteBookModalTop{
+    display: flex;
+    justify-content: center;
+}
+.deleteBookModalTitle{
+    font-size: medium;
+}
+
+.deleteBookModalBottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    width:90%;
+    flex:1;
+}
+.deleteBookModalButtons{
+    display: flex;
+    justify-content: space-around;
+}
+

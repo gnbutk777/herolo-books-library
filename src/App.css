@@ -3,8 +3,19 @@
     align-items: center;
     flex-direction: column;
 }
-
-
+.top{
+    display: flex;
+    flex:1;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.menu{
+    margin-bottom:1%;
+}
+.loadingBooks{
+    display: flex;
+}
 .booksContainer{
     display:flex;
     width: 90%;
@@ -12,6 +23,5 @@
     flex: 1;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: blue;
 }
 

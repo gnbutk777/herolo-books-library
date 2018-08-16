@@ -1,9 +1,20 @@
-
 .bookDetails{
     display :flex;
     flex-direction: column;
-    width: 30%;
-    height: 30%;
+    flex:0 0 30%;
     margin:1%;
-    background-color: yellow;
+    border-style: groove;
+    background-color: bisque;
+    align-items: center;
+    white-space: pre-line;
+}
+
+.bookDetails p{
+    width: 94%;
+    margin-left: 5%;
+}
+
+.bookDetails button{
+    width: 50%;
+    margin-bottom: 2%;
 }

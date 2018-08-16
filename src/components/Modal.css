@@ -1,0 +1,45 @@
+
+.modalBackground{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    background-color: #000A;
+
+}
+
+.modalContainer{
+    display: flex;
+    height: 55%;
+    width: 35%;
+    flex-direction: column;
+    background-color: #FFF;
+}
+
+.modalTop{
+    display: flex;
+    justify-content: center;
+}
+
+.modalBottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    width:90%;
+    flex:1;
+}
+.modalForm label{
+    margin-bottom: 1%;
+    margin-bottom: 5%;
+}
+.modalForm label input{
+    width: 100%;
+}
+.modalButtons{
+    display: flex;
+    justify-content: space-around;
+}
+

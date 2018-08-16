@@ -3,11 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/react": "^16.4.9",
+    "moment": "^2.22.2",
     "react": "^16.4.2",
+    "react-datepicker": "^1.6.0",
     "react-dom": "^16.4.2",
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^5.1.1",
     "redux-thunk": "^2.3.0"
   },
   "scripts": {

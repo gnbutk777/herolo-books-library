@@ -1,7 +1,11 @@
 import  booksReducer from './booksReducer'
+import deleteBookModalReducer from "./deleteBookModalReducer";
+import  modalReducer from './modalReducer'
 
-export {
+export default {
+    booksReducer,
+    modalReducer,
+    deleteBookModalReducer,
 
-    booksReducer
 
 }

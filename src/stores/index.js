@@ -1,30 +1,15 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux'
 import thunk from 'redux-thunk'
-import { booksReducer } from '../reducers'
+import allReducers from '../reducers'
 
 
 var store
 export default {
+    configure: (initialState) => {
 
-    configure: (initialState) => { // initialState can be null
-
-        const reducers = combineReducers({ // insert reducers here
-            booksReducer,
-        })
-
-        if (initialState){
-            store = createStore(
-                reducers,
-                initialState,
-                applyMiddleware(thunk)
-            )
-            store = createStore(
-                reducers,
-                applyMiddleware(thunk)
-            )
-
-            return store
-        }
+        const reducers = combineReducers(
+            allReducers
+        )
 
         store = createStore(
             reducers,
@@ -33,8 +18,4 @@ export default {
 
         return store
     },
-
-    currentStore: () => {
-        return store
-    }
 }
