@@ -2,8 +2,10 @@
   "name": "herolo-books-library",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gnbutk777.github.io/herolo-books-library",
   "dependencies": {
     "@types/react": "^16.4.9",
+    "gh-pages": "^1.2.0",
     "moment": "^2.22.2",
     "react": "^16.4.2",
     "react-datepicker": "^1.6.0",
@@ -16,6 +18,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
